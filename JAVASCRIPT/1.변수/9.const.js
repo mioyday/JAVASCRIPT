@@ -13,14 +13,13 @@ const MAX_FRUITS = 5;
 
 //2. 재할당 불가능한 상수변수 또는 변수
 
-const apple={
+const apple = {
     name: 'apple',
     color: 'red',
     display: 'a',
 };
-
 //apple = {};
 console.log(apple);
 
 apple.name = 'orange';
-console.log(apple);
+console.log(apple); //메모리 주소 할당이기 때문에 변경가능

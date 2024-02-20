@@ -40,7 +40,7 @@ class Animal{
 class Tiger extends Animal{}
 const tiger = new Tiger('노랑이');
 console.log(tiger);
-tiger/sleep();
+tiger.sleep();
 tiger.eat();
 
 class Dog extends Animal{

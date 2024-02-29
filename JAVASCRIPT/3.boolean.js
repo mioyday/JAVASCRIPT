@@ -1,7 +1,7 @@
 //Boolean
 const isTrue = new Boolean(true);
 console.log(isTrue.valueOf());
-
+console.log(isTrue.valueOf());
 /**
  * Falshy
  * 0
